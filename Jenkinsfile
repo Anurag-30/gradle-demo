@@ -17,6 +17,8 @@ volumes: [
         container('gradle') {
           sh """
             gradle build 
+            pwd
+            ls
             """
         
       }
@@ -26,7 +28,8 @@ volumes: [
       
         container('docker') {
           sh """
-            docker images
+            pwd
+            ls
             docker build -t test .
             docker images
             """
