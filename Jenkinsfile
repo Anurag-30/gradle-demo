@@ -4,7 +4,7 @@ library identifier: 'mylibraryname@master',
     retriever: modernSCM([
       $class: 'GitSCMSource',
       //credentialsId: 'your-credentials-id',
-      remote: 'https://github.com/monodot/private-jenkins-library.git'
+      remote: 'https://github.com/Anurag-30/jenkins.githttps://github.com/Anurag-30/jenkins.git'
     ])
 
 testpipeline()
