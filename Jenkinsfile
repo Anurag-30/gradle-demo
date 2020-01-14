@@ -6,4 +6,4 @@ library identifier: 'jenkinspipeline@master',
       //credentialsId: 'your-credentials-id',
       remote: 'https://github.com/Anurag-30/jenkins.git'
     ])
-buildpipeline()
+testpipeline()
