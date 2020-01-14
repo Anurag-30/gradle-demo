@@ -1,3 +1,3 @@
 # gradle-demo
 
-This is a sample gradle project to demonstrate 
+This is a sample gradle project to demonstrate shared libraries conce
