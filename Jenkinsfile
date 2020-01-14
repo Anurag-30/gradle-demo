@@ -13,22 +13,22 @@ volumes: [
 ]) {
   node(label) {
  
-     stage('build docker image') {
+     stage('gradle build ') {
         container('gradle') {
           sh """
-            gradle build docker
+            gradle build 
             """
         
       }
     }
  
-     stage('helm build') {
+     stage('docker image') {
       
         container('helm') {
           sh """
-            
-            helm version
-            echo " this is auto "
+            docker images
+            docker build -t test .
+            docker images
             """
         
       }
