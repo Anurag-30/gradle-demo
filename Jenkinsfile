@@ -3,7 +3,7 @@ library identifier: 'jenkinspipeline@master',
     //'mylibraryname' can be any name
     retriever: modernSCM([
       $class: 'GitSCMSource',
-      credentialsId: 'your-credentials-id',
+      //credentialsId: 'your-credentials-id',
       remote: 'https://github.com/Anurag-30/jenkins.git'
     ])
 buildpipeline()
