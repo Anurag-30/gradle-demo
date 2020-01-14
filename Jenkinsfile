@@ -1,4 +1,4 @@
-library identifier: '@master', 
+library identifier: 'jenkinspipeline@master', 
     //'master' refers to a valid git-ref
     //'mylibraryname' can be any name
     retriever: modernSCM([
