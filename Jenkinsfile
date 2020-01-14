@@ -24,7 +24,7 @@ volumes: [
  
      stage('docker image') {
       
-        container('helm') {
+        container('docker') {
           sh """
             docker images
             docker build -t test .
