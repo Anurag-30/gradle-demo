@@ -3,8 +3,6 @@ library identifier: 'mylibraryname@master',
     //'mylibraryname' can be any name
     retriever: modernSCM([
       $class: 'GitSCMSource',
-      //credentialsId: 'your-credentials-id',
-      remote: 'https://github.com/Anurag-30/jenkins.git'
+      credentialsId: 'your-credentials-id',
+      remote: 'https://github.com/monodot/private-jenkins-library.git'
     ])
-
-buildpipeline()
