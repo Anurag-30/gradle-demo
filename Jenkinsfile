@@ -16,8 +16,8 @@ volumes: [
      stage('gradle build ') {
         container('gradle') {
           sh """
-            gradle build 
-            pwd
+            gradle build;
+            pwd;
             ls
             """
         
@@ -28,8 +28,8 @@ volumes: [
       
         container('docker') {
           sh """
-            pwd
-            ls
+            pwd;
+            ls;
             docker build -t test .
             docker images
             """
