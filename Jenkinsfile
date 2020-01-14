@@ -28,7 +28,6 @@ volumes: [
       
         container('docker') {
           sh """
-            pwd;
             ls;
             docker build -t test .
             docker images
