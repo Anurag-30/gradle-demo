@@ -7,3 +7,4 @@ library identifier: 'mylibraryname@master',
       remote: 'https://github.com/Anurag-30/jenkins.git'
     ])
 
+buildpipeline
