@@ -4,5 +4,6 @@ library identifier: 'mylibraryname@master',
     retriever: modernSCM([
       $class: 'GitSCMSource',
       //credentialsId: 'your-credentials-id',
-      remote: 'hhttps://github.com/Anurag-30/jenkins.git'
+      remote: 'https://github.com/Anurag-30/jenkins.git'
     ])
+
