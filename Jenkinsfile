@@ -1,9 +1,23 @@
-library identifier: 'jenkinspipeline@master', 
+library identifier: 'mylibraryname@master', 
     //'master' refers to a valid git-ref
     //'mylibraryname' can be any name
     retriever: modernSCM([
       $class: 'GitSCMSource',
-      //credentialsId: 'your-credentials-id',
-      remote: 'https://github.com/Anurag-30/jenkins.git'
+      credentialsId: 'your-credentials-id',
+      remote: 'https://github.com/monodot/private-jenkins-library.git'
+    ])library identifier: 'mylibraryname@master', 
+    //'master' refers to a valid git-ref
+    //'mylibraryname' can be any name
+    retriever: modernSCM([
+      $class: 'GitSCMSource',
+      credentialsId: 'your-credentials-id',
+      remote: 'https://github.com/monodot/private-jenkins-library.git'
+    ])library identifier: 'mylibraryname@master', 
+    //'master' refers to a valid git-ref
+    //'mylibraryname' can be any name
+    retriever: modernSCM([
+      $class: 'GitSCMSource',
+      credentialsId: 'your-credentials-id',
+      remote: 'https://github.com/monodot/private-jenkins-library.git'
     ])
 testpipeline()
