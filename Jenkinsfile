@@ -6,3 +6,4 @@ library identifier: 'mylibraryname@master',
       credentialsId: 'your-credentials-id',
       remote: 'https://github.com/monodot/private-jenkins-library.git'
     ])
+buildpipeline()
