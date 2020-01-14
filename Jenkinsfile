@@ -14,7 +14,7 @@ volumes: [
   node(label) {
  
      stage('build docker image') {
-        container('gradle build') {
+        container('gradle') {
           sh """
             gradle build docker
             """
