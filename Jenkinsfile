@@ -9,7 +9,4 @@ library identifier: 'mylibraryname@master',
 
 
 
-demo {
-    service = 'test'
-    var1 = 'value'
-}
+demo 
