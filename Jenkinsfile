@@ -7,5 +7,5 @@ library identifier: 'mylibraryname@master',
       remote: 'https://github.com/Anurag-30/jenkins.git'
     ])
 
-demo(withEnv(["SERVICE_NAME=test"]))
+demo()
 
