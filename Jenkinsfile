@@ -9,4 +9,4 @@ library identifier: 'mylibraryname@master',
 
 
 
-demo 
+demo (service: 'test')
