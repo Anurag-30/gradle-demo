@@ -10,8 +10,8 @@ library identifier: 'mylibraryname@master',
 
 
 demo {
-    service = 'master'
-    scmUrl = 'ssh://git@myScmServer.com/repos/myRepo.git'
+    service = 'test'
+    var1 = 'ssh://git@myScmServer.com/repos/myRepo.git'
     email = 'team@example.com'
     serverPort = '8080'
     developmentServer = 'dev-myproject.mycompany.com'
