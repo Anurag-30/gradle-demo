@@ -9,7 +9,7 @@ library identifier: 'mylibraryname@master',
 
 
 
-demo (env.service: 'test')
+// demo (env.service: 'test')
 env.SERVICE = 'test'
 env.VAR1 = 'value'
 
