@@ -6,6 +6,6 @@ library identifier: 'mylibraryname@master',
       //credentialsId: 'your-credentials-id',
       remote: 'https://github.com/Anurag-30/jenkins.git'
     ])
-withEnv(['VAR1=VALUE ONE',]) {
+withEnv(['SERVICE_NAME="test"]) {
 demo({SERVICE_NAME="test"})
 
