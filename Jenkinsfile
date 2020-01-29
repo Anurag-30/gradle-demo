@@ -7,10 +7,10 @@ library identifier: 'mylibraryname@master',
       remote: 'https://github.com/Anurag-30/jenkins.git'
     ])
 
-demopipelineParams.branch
 
-myDeliveryPipeline {
-    branch = 'master'
+
+demo {
+    service = 'master'
     scmUrl = 'ssh://git@myScmServer.com/repos/myRepo.git'
     email = 'team@example.com'
     serverPort = '8080'
